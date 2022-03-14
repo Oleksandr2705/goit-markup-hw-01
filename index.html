@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студия</title>
+    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,95 +14,80 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Верхний контейнер   -->
+    <!--  Верхний контейнер       -->
     <header>
       <nav>
         <a href="/" class="logotip"><span class="logotip-end">Web</span> Studio</a>
-        <ul class="site-list">
+        <ul class="site-li">
           <li><a href="./index.html" class="link-current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-nav-list">
+      <ul class="site-li">
         <li><a href="mailto:info@devstudio.com" class="link-current">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
       </ul>
     </header>
-    <!-- Контейнер Эффективные решения для вашего бизнеса -->
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button-text">Заказать услугу</button>
-      </section>
-      <!-- Контейнер Внимание к деталям... -->
+      <!--  Контейнер с кнопками -->
       <section>
-        <h2 class="benefits-title">Внимание к деталям</h2>
+        <h1>Заголовок Портфолио</h1>
         <ul>
-          <li>
-            <h3 class="benefits-title">Внимание к деталям</h3>
-            <p class="benefits-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Пунктуальность</h3>
-            <p class="benefits-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Планирование</h3>
-            <p class="benefits-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Современные технологии</h3>
-            <p class="benefits-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
+          <li><button type="button" class="button-li">Все</button></li>
+          <li><button type="button" class="button-li">Веб-сайты</button></li>
+          <li><button type="button" class="button-li">Приложения</button></li>
+          <li><button type="button" class="button-li">Дизайн</button></li>
+          <li><button type="button" class="button-li">Маркетинг</button></li>
         </ul>
-      </section>
-      <!-- Чем мы занимаемся -->
-      <section class="about-us">
-        <h3 class="about-us-text">Чем мы занимаемся</h3>
-        <ul>
+       <ul>
+          <!--  1 ряд фото -->
           <li>
-            <a href=""><img src="./images/foto1.jpg" alt="foto1" width="370" /></a>
+            <a href=""><img src="./images/foto4.jpg" alt="foto4" width="370" height="294" />
+            <h2 class="portfolio-name">Технокряк</h2>
+            <p class="portfolio-text">Веб сайт</p></a>
           </li>
           <li>
-            <a href=""><img src="./images/foto2.jpg" alt="foto2" width="370" /></a>
+            <a href=""><img src="./images/foto5.jpg" alt="foto5" width="370" height="294"/>
+            <h2 class="portfolio-name">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-text">Дизайн</p></a>
           </li>
           <li>
-            <a href=""><img src="./images/foto3.jpg" alt="foto3 width="370" /></a>
+            <a href=""><img src="./images/foto6.jpg" alt="foto6" width="370" height="294"/>
+            <h2 class="portfolio-name">Ресторан Seafood</h2>
+            <p class="portfolio-text">Приложение</p></a>
           </li>
-        </ul>
-      </section>
-      <!-- Наша команда -->
-      <section>
-        <h3 class="about-us-text">Наша команда</h3>
-        <ul>
+          <!--  2 ряд фото -->
           <li>
-            <a href=""><img src="./images/people1.jpg" alt="people1" width="270" /></a>
-            <h4 class="our-team">Игорь Демьяненко</h4>
-            <p class="our-team-text">Product Designer</p>
+            <a href=""><img src="./images/foto7.jpg" alt="foto7" width="370" height="294"/>
+            <h2 class="portfolio-name">Проект Prime</h2>
+            <p class="portfolio-text">Маркетинг</p></a>
           </li>
           <li>
-            <a href=""><img src="./images/people2.jpg" alt="people2" width="270" /></a>
-            <h4 class="our-team">Ольга Репина</h4>
-            <p class="our-team-text">Frontend Developer</p>
+            <a href=""><img src="./images/foto8.jpg" alt="foto8" width="370" height="294"/>
+            <h2 class="portfolio-name">Проект Boxes</h2>
+            <p class="portfolio-text">Приложение</p>
           </li>
           <li>
-            <a href=""><img src="./images/people3.jpg" alt="people13" width="270" /></a>
-            <h4 class="our-team">Николай Тарасов</h4>
-            <p class="our-team-text">Marketing</p>
+            <a href=""><img src="./images/foto9.jpg" alt="foto9" width="370" height="294"/></a>
+            <h2 class="portfolio-name">Inspiration has no Borders</h2>
+            <p class="portfolio-text">Веб сайт</p></a>
+          </li>
+          <!-- 3 ряд фото -->
+          <li>
+            <a href=""><img src="./images/foto10.jpg" alt="foto10" width="370" height="294"/>
+            <h2 class="portfolio-name">Издание Limited Edition</h2>
+            <p class="portfolio-text">Дизайн</p></a>
           </li>
           <li>
-            <a href=""><img src="./images/people4.jpg" alt="people4" width="270" /></a>
-            <h4 class="our-team">Михаил Ермаков</h4>
-            <p class="our-team-text">UI Designer</p>
+            <a href=""><img src="./images/foto11.jpg" alt="foto11" width="370" height="294"/>
+            <h2 class="portfolio-name">Проект LAB</h2>
+            <p class="portfolio-text">Маркетинг</p></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/foto12.jpg" alt="foto12" width="370" height="294"/>
+            <h2 class="portfolio-name">Growing Business</h2>
+            <p class="portfolio-text">Приложение</p></a>
           </li>
         </ul>
       </section>
@@ -110,7 +95,7 @@
     <!-- Футер -->
     <footer>
       <div class="adress">
-                <a href="/" class="logo-footer"><span class="logotip-end">Web</span> Studio</a>
+        <a href="/" class="logo-footer"><span class="logotip-end">Web</span> Studio</a>
         <address>
           <ul>
             <li>
